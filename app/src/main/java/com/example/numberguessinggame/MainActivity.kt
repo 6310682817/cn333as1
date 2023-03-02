@@ -110,7 +110,7 @@ fun NumberGuessingGameScreen() {
         Button(
             modifier = Modifier.align(Alignment.CenterHorizontally),
             onClick = {
-                if (guessNumber != null) {
+                if (guessNumber != null && result != "Correct!") {
                     countGuess += 1
                     result = calculateGuessNumber(guessNumber, randomNumber)
                     if(guessNumber == -9999) {
