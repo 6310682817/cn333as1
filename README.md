@@ -1,5 +1,5 @@
 ## Number Guessing Game
-Android App about number guessing Game
+Android App about number guessing game
 
 #### How to play
 1. Enter the number in the number field.
