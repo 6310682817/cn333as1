@@ -34,8 +34,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import java.util.*
 
-var randomNumber = Random().nextInt(1000 - 0) + 1
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,6 +50,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun NumberGuessingGameScreen() {
+    var randomNumber by remember { mutableStateOf(Random().nextInt(1000 - 0) + 1) } 
     var guessInput by remember { mutableStateOf("") }
     var countGuess by remember { mutableStateOf(0) }
     var countGuessText by remember { mutableStateOf("") }
