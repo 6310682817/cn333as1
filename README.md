@@ -8,9 +8,10 @@ Android app about number guessing game
 
 2. Press `SUBMIT` button to view the results.
 
+   > The game will have hints to help player guess more easily.
+
    <img src="https://user-images.githubusercontent.com/70094208/222574023-6a1489b7-9d7a-432f-b43c-1038cb6c1881.png" width="200px">
 
-> The game will have hints to help player guess more easily.
 
 3. Repeat steps 1-2 until you guess correctly.
 
