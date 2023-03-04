@@ -21,7 +21,7 @@ Android app about number guessing game
 
    <img src="https://user-images.githubusercontent.com/70094208/222574420-e1c7742e-9220-4ea0-8ff8-e9d050050ee6.png" width="200px">
 
-Link demo : <code><a href="https://www.youtube.com">www.youtube.com</a></code>
+Link demo : <code><a href="https://www.youtube.com">https://youtu.be/M2gcznfruRk</a></code>
 <hr>
 
 Member
